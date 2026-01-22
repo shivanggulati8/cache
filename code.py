@@ -1,2 +1,2 @@
-def add_one_and_two():
-    return 1 + 2
+def add(a, b):
+    return int(a) + int(b)
