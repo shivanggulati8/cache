@@ -1,5 +1,5 @@
 *** Settings ***
-Library    ./main.py    
+Library    ./code.py    
 Library    BuiltIn
 
 *** Test Cases ***
