@@ -1,8 +1,11 @@
 *** Settings ***
-Library    ./code.py
-Library    ./math_util.py
+Library    ./main.py    
+Library    BuiltIn
 
 *** Test Cases ***
-Test Adding One And Two
-    ${result}=    add_one_and_two
+Checking If Addition Works
+    ${result}=  Add    1    2
     Should Be Equal As Integers    ${result}    3
+Checking If Negative Addition Works
+    ${result}=  Add    -1    -2
+    Should Be Equal As Integers    ${result}    -3
