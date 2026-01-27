@@ -6,3 +6,4 @@ Library    BuiltIn
 Addition With User Input
     ${result}=    Add    ${a}    ${b}
     Log    Result is ${result}
+    Log To Console    Result is ${result}
